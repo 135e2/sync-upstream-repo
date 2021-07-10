@@ -18,7 +18,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Fetch upstream
-      uses: 135e2/sync-upstream-repo@v0.1.4
+      uses: 135e2/sync-upstream-repo@v0.1.4-hotfix
       with:
       #Git upstream repo
         upstream_repo: https://github.com/holger24/AFD.git
